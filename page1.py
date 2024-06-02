@@ -37,7 +37,7 @@ client = OpenAI(api_key=openai_api_key)
 # # thread ID 생성
 # thread_id = new_thread.id
 
-# 입력된 assistant, thread ID
+# 입력된 assistant, thread ID, API키
 assistant_id = st.text_input('assistant')
 thread_id = st.text_input('thread')
 
